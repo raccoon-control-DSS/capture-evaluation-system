@@ -40,8 +40,8 @@ shinyUI(fluidPage(
         
         br(),
         
-        h4("【仮定パラメータ値】"),
-        helpText("参考に設定"),
+        h4("【仮定したパラメータ値】"),
+        helpText("先行文献を参考に初期パラメータ値を設定（Gehrt & Fritzell, 1999; Asano et al., 2003; 兵庫県森林動物研究センター, 2009; "),
         numericInput("y2",
                      label = "初期の２歳以上生息数割合",
                      min = 0, max = 1, value = 0.6),
